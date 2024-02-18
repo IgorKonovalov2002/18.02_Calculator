@@ -1,0 +1,112 @@
+.hidden {
+    display: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(143, 118, 164);
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.jcc {
+    /* margin: 0 auto; 
+    text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator {
+    /* height: 100vh; */
+
+}
+
+.container {
+    width: 700px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 35px 2px rgb(45, 29, 70);
+    padding: 20px;
+    text-align: center;
+}
+
+.display {
+    width: 665px;
+    height: 100px;
+    border: none;
+    outline: none;
+    background-color: #ebeced;
+    border-radius: 10px;
+    box-shadow: inset 6px 6px 6px #a9aaab, inset -6px -6px 6px #e7e5e5;
+    margin-bottom: 10px;
+    text-align: right;
+    padding-right: 20px;
+    
+    font-size: 48px;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.row:last-child {
+    margin-bottom: 0;
+}
+.btn {
+    margin: 0 5px;
+    width: 126px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 28px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #c2c2c3, -5px -5px 10px #fff;
+}
+.btn:hover {
+    background-color: #fff;
+    box-shadow: inset 5px 5px 10px #d1d1d5, inset -5px -5px 10px #fff;
+}
+
+#eval {
+    background: #30c9fc;
+    color: #fff;
+    box-shadow: inset 5px 5px 10px #63d6fc, inset -5px -5px 10px #03b1eb;
+}
+#eval:hover {
+    box-shadow: inset 5px 5px 10px #03b1eb, inset -5px -5px 10px #03b1eb;
+}
+
+#c {
+    background: #f99b3c;
+    color: #fff;
+    box-shadow: inset 5px 5px 10px #f4b73f, inset -5px -5px 10px #eb6f03;
+}
+#c:hover {
+    box-shadow: inset 5px 5px 10px #eb6f03, inset -5px -5px 10px #eb6f03;
+}
+
+#ac {
+    background: #41fc30e5;
+    color: #fff;
+    box-shadow: inset 5px 5px 10px #8ffb74, inset -5px -5px 10px #45ca03;
+}
+
+#ac:hover {
+    box-shadow: inset 5px 5px 10px #45ca03, inset -5px -5px 10px #45ca03;
+}
+
+.heading {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+    font-size: 56px;
+    color: #ffffff;
+}
